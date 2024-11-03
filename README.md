@@ -30,3 +30,4 @@
 
 - **admin de test** : `admin@mail.com`
 - **Mot de passe** : `admin`
+- WebEtu : [https://webetu.iutnc.univ-lorraine.fr/~korban2u/deefy/](https://webetu.iutnc.univ-lorraine.fr/~korban2u/deefy/index.php)
