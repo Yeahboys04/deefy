@@ -1,129 +1,122 @@
 body {
-    background-color: #121212; /* Couleur de fond sombre */
-    color: white; /* Couleur du texte */
+    background-color: #121212;
+    color: white;
 }
 header, footer {
-    background-color: #1c1c1c; /* Couleur de fond pour l'en-tête et le pied de page */
+    background-color: #1c1c1c;
 }
 
 .nav-link {
-    transition: color 0.3s; /* Transition douce pour le changement de couleur */
+    transition: color 0.3s;
 }
 
 .nav-link:hover {
-    color: #ffffff; /* Couleur verte de Spotify au survol */
+    color: #ffffff;
 }
-
-
 
 h5 {
-    margin-bottom: 1rem; /* Espace sous le titre de la bibliothèque */
+    margin-bottom: 1rem;
 }
 
-/* Styles pour les boutons personnalisés */
 .btn-custom {
-    background-color: #1db954; /* Couleur de fond verte */
-    color: white; /* Couleur du texte */
-    border-radius: 30px; /* Coins arrondis */
-    padding: 10px 20px; /* Espacement interne */
-    border: none; /* Supprime la bordure */
-    transition: background-color 0.3s, transform 0.3s; /* Transition douce */
+    background-color: #1db954;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .btn-custom:hover {
-    background-color: #1aa34a; /* Couleur verte plus foncée au survol */
-    transform: scale(1.05); /* Légère augmentation de la taille au survol */
+    background-color: #1aa34a;
+    transform: scale(1.05);
 }
 
 .btn-custom:focus {
-    outline: none; /* Supprime le contour par défaut */
-}
-
-body {
-    background-color: #121212; /* Couleur de fond sombre */
-    color: white; /* Couleur du texte */
+    outline: none;
 }
 
 .form-signin {
-    max-width: 800px; /* Largeur maximale du formulaire */
-    margin: auto; /* Centrer le formulaire */
-    background-color: #2c2c2c; /* Fond du formulaire */
-    padding: 2rem; /* Espacement interne */
-    border-radius: 15px; /* Coins arrondis */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Ombre pour le formulaire */
+    max-width: 800px;
+    margin: auto;
+    background-color: #2c2c2c;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .form-playlist {
-    max-width: 500px; /* Largeur maximale du formulaire */
-    margin: auto; /* Centrer le formulaire */
-    background-color: #2c2c2c; /* Fond du formulaire */
-    padding: 2rem; /* Espacement interne */
-    border-radius: 15px; /* Coins arrondis */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Ombre pour le formulaire */
+    max-width: 500px;
+    margin: auto;
+    background-color: #2c2c2c;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .form-control {
-    background-color: #3a3a3a; /* Fond sombre pour les champs de saisie */
-    color: white; /* Couleur du texte */
-    border: 1px solid #1db954; /* Bordure verte */
-    border-radius: 25px; /* Coins arrondis */
+    background-color: #3a3a3a;
+    color: white;
+    border: 1px solid #1db954;
+    border-radius: 25px;
 }
 
 .form-control:focus {
-    border-color: #1aa34a; /* Couleur de bordure au focus */
-    box-shadow: 0 0 5px rgba(29, 185, 74, 0.5); /* Ombre au focus */
+    border-color: #1aa34a;
+    box-shadow: 0 0 5px rgba(29, 185, 74, 0.5);
 }
 
 .btn-primary {
-    background-color: #1db954; /* Couleur de fond verte */
-    border: none; /* Supprime la bordure */
-    border-radius: 25px; /* Coins arrondis */
-    transition: background-color 0.3s; /* Transition douce */
+    background-color: #1db954;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
 }
 
 .btn-primary:hover {
-    background-color: #1aa34a; /* Couleur verte plus foncée au survol */
+    background-color: #1aa34a;
 }
 
 .text-body-secondary {
-    color: #aaa; /* Couleur du texte secondaire */
+    color: #aaa;
 }
 
 .playlist-container {
-    max-width: 800px; /* Largeur maximale de la carte */
-    margin: auto; /* Centrer la carte */
-    background-color: #2c2c2c; /* Fond de la carte */
-    padding: 2rem; /* Espacement interne */
-    border-radius: 15px; /* Coins arrondis */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Ombre pour la carte */
+    max-width: 800px;
+    margin: auto;
+    background-color: #2c2c2c;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .main-container {
-    background-color: #2c2c2c; /* Fond de la carte */
-    padding: 2rem; /* Espacement interne */
-    border-radius: 15px; /* Coins arrondis */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Ombre pour la carte */
+    background-color: #2c2c2c;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 input[type="file"] {
-    margin-top: 10px; /* Espace au-dessus du champ de fichier */
+    margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .sidebar {
-    background-color: #212529; /* Couleur de fond de la sidebar */
-    padding: 20px; /* Espacement interne */
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Ombre pour la sidebar */
+    background-color: #212529;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .nav-link {
-    color: #ffffff; /* Couleur du texte des liens */
-    transition: background-color 0.3s; /* Transition douce pour le survol */
+    color: #ffffff;
+    transition: background-color 0.3s;
 }
 
 .nav-link:hover {
-    background-color: #1db954; /* Couleur de fond au survol */
-    border-radius: 5px; /* Coins arrondis au survol */
+    background-color: #1db954;
+    border-radius: 5px;
 }
 
 .track-item {
@@ -148,17 +141,15 @@ input[type="file"] {
 }
 
 .audio-player {
-    max-width: 300px; /* Ajuste cette valeur selon tes préférences */
+    max-width: 300px;
     width: 100%;
 }
 
-
 @media (min-width: 769px) {
     .sidebar .nav {
-        flex-direction: row; /* Alignement vertical */
+        flex-direction: row;
     }
     aside {
-        min-height: 100vh; /* Assure que la barre latérale prend toute la hauteur de la page */
+        min-height: 100vh;
     }
 }
-
