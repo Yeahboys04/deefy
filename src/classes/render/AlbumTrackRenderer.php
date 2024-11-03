@@ -38,7 +38,7 @@ HTML;
      */
     protected function renderLong(): string
     {
-        return "<div><h1>{$this->audio->titre}</h1><p>Artiste: {$this->audio->auteur}</p><p>Album: {$this->audio->album}</p><p>Année: {$this->audio->annee}</p><p>Numéro: {$this->audio->numero_piste}</p><p>Genre: {$this->audio->genre}</p><p>Durée: {$this->audio->duree} secondes</p><audio controls><source src='../../../audio/{$this->audio->nomFichier}' type='audio/mp3'></audio></div>";
+        return "<div><h1>{$this->audio->titre}</h1><p>Artiste: {$this->audio->auteur}</p><p>Album: {$this->audio->album}</p><p>Année: {$this->audio->annee}</p><p>Numéro: {$this->audio->numero_piste}</p><p>Genre: {$this->audio->genre}</p><p>Durée: {$this->audio->duree} secondes</p><audio controls><source src='audio/{$this->audio->nomFichier}' type='audio/mp3'></audio></div>";
     }
 }
 
