@@ -136,10 +136,10 @@ HTML;
         }
 
         // Validation et nettoyage des données
-        $titre = filter_var(trim($_POST['title'] ?? ''), FILTER_SANITIZE_SPECIAL_CHARS);
+        $titre = filter_var(trim($_POST['titre'] ?? ''), FILTER_SANITIZE_SPECIAL_CHARS);
 
         if($titre === ''){
-            $titre = $infoFichier['tags']['id3v2']['artist'][0] ?? 'Titre non disponible';
+            $titre = $infoFichier['tags']['id3v2']['title'][0] ?? 'Titre non disponible';
         }
 
         $typeTrack = filter_var($_POST['typeTrack'], FILTER_VALIDATE_INT);
