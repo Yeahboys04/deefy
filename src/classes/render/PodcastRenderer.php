@@ -26,7 +26,7 @@ class PodcastRenderer extends AudioTrackRenderer
     </div>
    
 
-    <audio controls class="mt-3 mt-md-0 ml-md-3 audio-playe"><source src='../../../audio/{$this->audio->nomFichier}' type='audio/mpeg'></audio> 
+    <audio controls class="mt-3 mt-md-0 ml-md-3 audio-playe"><source src='audio/{$this->audio->nomFichier}' type='audio/mpeg'></audio> 
 </div>
 HTML;
     }
