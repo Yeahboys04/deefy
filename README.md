@@ -20,7 +20,7 @@
 
 ## Script de Création de la Base de Données
 
-- fichier create_database.sql dans le dossier documents
+- fichier create_database.sql
 
 ## Test de l'application
 (Pour faciliter les tests, la sécurité du mot de passe n'est pas respectée pour les utilisateurs prédéfinis, Cependant, pour les comptes créés dans l'application, la sécurité du mot de passe est obligatoire.)
