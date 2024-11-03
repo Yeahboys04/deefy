@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="deab004f-0f8f-4fa3-80c1-6e8695dbf9b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/action/DisplayCurrentPlaylistAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/action/DisplayPlaylistsAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/auth/Authz.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/exception/PlaylistNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/exception/TracksNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/6722545c98fe6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/01-Im_with_you_BB-King-Lucille.mp3Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/02-I_Need_Your_Love-BB_King-Lucille.mp3Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/03-Country_Girl-BB_King-Lucille.mp3Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/action/Action.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/action/Action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/action/AddPlaylistAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/action/AddPlaylistAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/action/AddPodcastTrackAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/action/AddPodcastTrackAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/action/AddUserAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/action/AddUserAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/action/DefaultAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/action/DefaultAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/action/DisplayPlaylistAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/action/DisplayPlaylistAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/action/LogoutAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/action/LogoutAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/action/SigninAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/action/SigninAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/audio/lists/Album.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/audio/lists/Album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/audio/lists/AudioList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/audio/lists/AudioList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/audio/lists/Playlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/audio/lists/Playlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/audio/tracks/AlbumTrack.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/audio/tracks/AlbumTrack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/audio/tracks/AudioTrack.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/audio/tracks/AudioTrack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/audio/tracks/PodcastTrack.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/audio/tracks/PodcastTrack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/auth/AuthnProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/auth/AuthnProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/dispatch/Dispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/dispatch/Dispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/render/AlbumTrackRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/render/AlbumTrackRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/render/AudioListRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/render/AudioListRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/render/AudioTrackRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/render/AudioTrackRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/render/PodcastRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/render/PodcastRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/render/Renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/render/Renderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/repository/DeefyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/repository/DeefyRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/users/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/users/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loader/Psr4ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/loader/Psr4ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yeahboys04&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Yeahboys04/deefy.git&quot;,
+    &quot;accountId&quot;: &quot;5fe2adea-181b-4005-90f8-eaed379f42bf&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP_8.2.12">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/james-heinrich/getid3" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2oALRrrW6TmLbVsDFpHMHny4fk9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/var/www/deefy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="deab004f-0f8f-4fa3-80c1-6e8695dbf9b6" name="Changes" comment="" />
+      <created>1730307428484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730307428484</updated>
+      <workItem from="1730307429545" duration="50680000" />
+      <workItem from="1730484541346" duration="2770000" />
+      <workItem from="1730546841811" duration="20000" />
+      <workItem from="1730573408177" duration="170000" />
+      <workItem from="1730640810312" duration="1323000" />
+      <workItem from="1730642190548" duration="874000" />
+      <workItem from="1730649411395" duration="992000" />
+      <workItem from="1730651194214" duration="2526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/classes/repository/DeefyRepository.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

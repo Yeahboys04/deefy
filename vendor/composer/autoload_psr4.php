@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'iutnc\\deefy\\config\\' => array($baseDir . '/config'),
     'iutnc\\deefy\\' => array($baseDir . '/src/classes'),
 );

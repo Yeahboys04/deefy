@@ -1,29 +1,42 @@
 <?php
+
 namespace iutnc\deefy\action;
+
 use iutnc\deefy\auth\AuthnProvider;
 use iutnc\deefy\exception\AuthException;
-use iutnc\deefy\repository\DeefyRepository;
-use mysql_xdevapi\Exception;
-use function Symfony\Component\String\s;
 
+/**
+ * Classe AddUser Action
+ *
+ * Cette classe gère l'inscription des utilisateurs. Elle fournit un formulaire pour que les utilisateurs puissent
+ * entrer leur adresse e-mail et leur mot de passe, et traite la soumission de ce formulaire.
+ */
 class AddUserAction extends Action
 {
-
+    /**
+     * Exécute l'action appropriée en fonction de la méthode HTTP.
+     *
+     * @return string Le rendu HTML du formulaire ou un message d'erreur.
+     */
     public function execute(): string
     {
         $res = "";
-        switch ($this->http_method){
+        switch ($this->http_method) {
             case "GET":
                 $res = $this->get();
                 break;
             case "POST":
                 $res = $this->post();
                 break;
-
         }
         return $res;
     }
 
+    /**
+     * Affiche le formulaire d'inscription.
+     *
+     * @return string Le rendu HTML du formulaire d'inscription.
+     */
     protected function get(): string
     {
         $res = <<<HTML
@@ -51,40 +64,48 @@ class AddUserAction extends Action
 HTML;
 
         return $res;
-
     }
 
+    /**
+     * Traite la soumission du formulaire d'inscription.
+     *
+     * @return string Un message indiquant le résultat de l'inscription (succès ou erreur).
+     */
     protected function post(): string
     {
         $password = filter_var($_POST["password"], FILTER_SANITIZE_SPECIAL_CHARS);
         $passwordConfirm = filter_var($_POST["password-confirm"], FILTER_SANITIZE_SPECIAL_CHARS);
         $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
         $res = "";
-        if($password !== false && $passwordConfirm !== false && $email !== false) {
-            if ($password===$passwordConfirm){
+
+        if ($password !== false && $passwordConfirm !== false && $email !== false) {
+            if ($password === $passwordConfirm) {
                 try {
-                    AuthnProvider::register($email,$password);
+                    AuthnProvider::register($email, $password);
                     $res = <<<HTML
         <div class="alert alert-success mt-3 text-center" role="alert">
             Bonjour, vous êtes inscrit(e) avec succès !
         </div>
 HTML;
-                    AuthnProvider::signin($email,$password);
-
-                }catch (AuthException $e){
-                    echo $e->getMessage();
+                    AuthnProvider::signin($email, $password);
+                } catch (AuthException $e) {
                     $res = $this->errorMessage($e->getMessage());
                 }
-            } else{
+            } else {
                 $res = $this->errorMessage("Les mots de passe ne correspondent pas. Veuillez les saisir à nouveau.");
-
             }
         }
 
         return $res;
     }
 
-    private function errorMessage(string $message) : string
+    /**
+     * Crée un message d'erreur à afficher dans le formulaire d'inscription.
+     *
+     * @param string $message Le message d'erreur à afficher.
+     * @return string Le rendu HTML du formulaire d'inscription avec le message d'erreur.
+     */
+    protected function errorMessage(string $message) : string
     {
         $errorMessage = <<<HTML
         <div class="alert alert-danger mt-3 text-center" role="alert">

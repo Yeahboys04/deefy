@@ -1,22 +1,53 @@
 <?php
+
 namespace iutnc\deefy\audio\lists;
+
+use iutnc\deefy\audio\tracks\AudioTrack;
+
+/**
+ * Classe représentant une playlist audio.
+ */
 class Playlist extends AudioList
 {
-    public function ajouterPiste($piste){
+    /**
+     * Ajoute une piste à la playlist.
+     *
+     * @param AudioTrack $piste Piste à ajouter.
+     */
+    public function ajouterPiste(AudioTrack $piste): void
+    {
         $this->pistes[$this->nbPistes] = $piste;
-        $this->nbPistes ++;
+        $this->nbPistes++;
         $this->duree += $piste->duree;
     }
-    public function supprimerPiste($indPiste){
-        if($indPiste>0 && $indPiste<$this->nbPistes){
+
+    /**
+     * Supprime une piste de la playlist.
+     *
+     * @param int $indPiste Index de la piste à supprimer.
+     */
+    public function supprimerPiste(int $indPiste): void
+    {
+        if ($indPiste >= 0 && $indPiste < $this->nbPistes) {
             $this->duree -= $this->pistes[$indPiste]->duree;
             unset($this->pistes[$indPiste]);
-            $this->nbPistes --;
+            $this->pistes = array_values($this->pistes); // Réindexer le tableau
+            $this->nbPistes--;
         }
     }
 
-    public function ajouterPistes($pistes)
+    /**
+     * Ajoute plusieurs pistes à la playlist.
+     *
+     * @param array $pistes Pistes à ajouter.
+     */
+    public function ajouterPistes(array $pistes): void
     {
-        $this->pistes = array_unique(array_merge($this->pistes,$pistes));
+        foreach ($pistes as $piste) {
+            if (!in_array($piste, $this->pistes, true)) { // Vérifie si la piste n'est pas déjà présente
+                $this->ajouterPiste($piste);
+            }
+        }
     }
 }
+?>

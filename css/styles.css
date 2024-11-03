@@ -1,0 +1,164 @@
+body {
+    background-color: #121212; /* Couleur de fond sombre */
+    color: white; /* Couleur du texte */
+}
+header, footer {
+    background-color: #1c1c1c; /* Couleur de fond pour l'en-tête et le pied de page */
+}
+
+.nav-link {
+    transition: color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+.nav-link:hover {
+    color: #ffffff; /* Couleur verte de Spotify au survol */
+}
+
+
+
+h5 {
+    margin-bottom: 1rem; /* Espace sous le titre de la bibliothèque */
+}
+
+/* Styles pour les boutons personnalisés */
+.btn-custom {
+    background-color: #1db954; /* Couleur de fond verte */
+    color: white; /* Couleur du texte */
+    border-radius: 30px; /* Coins arrondis */
+    padding: 10px 20px; /* Espacement interne */
+    border: none; /* Supprime la bordure */
+    transition: background-color 0.3s, transform 0.3s; /* Transition douce */
+}
+
+.btn-custom:hover {
+    background-color: #1aa34a; /* Couleur verte plus foncée au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille au survol */
+}
+
+.btn-custom:focus {
+    outline: none; /* Supprime le contour par défaut */
+}
+
+body {
+    background-color: #121212; /* Couleur de fond sombre */
+    color: white; /* Couleur du texte */
+}
+
+.form-signin {
+    max-width: 800px; /* Largeur maximale du formulaire */
+    margin: auto; /* Centrer le formulaire */
+    background-color: #2c2c2c; /* Fond du formulaire */
+    padding: 2rem; /* Espacement interne */
+    border-radius: 15px; /* Coins arrondis */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Ombre pour le formulaire */
+}
+
+.form-playlist {
+    max-width: 500px; /* Largeur maximale du formulaire */
+    margin: auto; /* Centrer le formulaire */
+    background-color: #2c2c2c; /* Fond du formulaire */
+    padding: 2rem; /* Espacement interne */
+    border-radius: 15px; /* Coins arrondis */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Ombre pour le formulaire */
+}
+
+.form-control {
+    background-color: #3a3a3a; /* Fond sombre pour les champs de saisie */
+    color: white; /* Couleur du texte */
+    border: 1px solid #1db954; /* Bordure verte */
+    border-radius: 25px; /* Coins arrondis */
+}
+
+.form-control:focus {
+    border-color: #1aa34a; /* Couleur de bordure au focus */
+    box-shadow: 0 0 5px rgba(29, 185, 74, 0.5); /* Ombre au focus */
+}
+
+.btn-primary {
+    background-color: #1db954; /* Couleur de fond verte */
+    border: none; /* Supprime la bordure */
+    border-radius: 25px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition douce */
+}
+
+.btn-primary:hover {
+    background-color: #1aa34a; /* Couleur verte plus foncée au survol */
+}
+
+.text-body-secondary {
+    color: #aaa; /* Couleur du texte secondaire */
+}
+
+.playlist-container {
+    max-width: 800px; /* Largeur maximale de la carte */
+    margin: auto; /* Centrer la carte */
+    background-color: #2c2c2c; /* Fond de la carte */
+    padding: 2rem; /* Espacement interne */
+    border-radius: 15px; /* Coins arrondis */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Ombre pour la carte */
+}
+
+.main-container {
+    background-color: #2c2c2c; /* Fond de la carte */
+    padding: 2rem; /* Espacement interne */
+    border-radius: 15px; /* Coins arrondis */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Ombre pour la carte */
+}
+
+input[type="file"] {
+    margin-top: 10px; /* Espace au-dessus du champ de fichier */
+    margin-bottom: 10px;
+}
+.sidebar {
+    background-color: #212529; /* Couleur de fond de la sidebar */
+    padding: 20px; /* Espacement interne */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Ombre pour la sidebar */
+}
+
+.nav-link {
+    color: #ffffff; /* Couleur du texte des liens */
+    transition: background-color 0.3s; /* Transition douce pour le survol */
+}
+
+.nav-link:hover {
+    background-color: #1db954; /* Couleur de fond au survol */
+    border-radius: 5px; /* Coins arrondis au survol */
+}
+
+.track-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.track-item:last-child {
+    border-bottom: none;
+}
+
+.track-item strong {
+    font-size: 1.2rem;
+}
+
+.track-item span {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.audio-player {
+    max-width: 300px; /* Ajuste cette valeur selon tes préférences */
+    width: 100%;
+}
+
+
+@media (min-width: 769px) {
+    .sidebar .nav {
+        flex-direction: row; /* Alignement vertical */
+    }
+    aside {
+        min-height: 100vh; /* Assure que la barre latérale prend toute la hauteur de la page */
+    }
+}
+
